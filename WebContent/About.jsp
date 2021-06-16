@@ -1,0 +1,419 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>About Us | CareerWay</title>
+<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/fontawesome-all.css" rel="stylesheet">
+      <!-- //font-awesome icons -->
+      <!--stylesheets-->
+		<link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+		<link href="css1/logcss.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+</head>
+<body>
+<%
+	String email=request.getParameter("email");
+	if(email==null)
+	{
+%>
+	<jsp:include page="header1.jsp"></jsp:include>
+<%
+	}
+	else
+	{
+%>
+	<jsp:include page="header.jsp">
+		<jsp:param value="<%=email%>" name="email"/>
+	</jsp:include>"
+<%
+	}
+%> 
+<!-- about inner -->
+<section class="about-bottom inner-padding">
+	<div class="container">
+		<div class="wthree_head_section">
+				<h2 class="w3l_header">About Us</h2>
+				<p>Nowadays, one of the biggest problems of our life is choosing a suitable career and pursuing it. Most of the people do not get proper guidance for their desired career and they end up doing something disastrous
+CareerWay is a career counseling website which helps a person by providing career guidance. Through career awareness student can possibly know all the career options, understand about different careers available in all streams. This is done via information sharing, could be reading well-researched content or getting to know it from a counselor. The step of understanding yourself involves students to know about their abilities, personality and interest. In the step of finding the right career fit a career counselor helps a student to find a right career fit basis their abilities, personality and interest. This is done via a personalized one-on-one session. In the college planning phase post deciding on the career/stream, the next and final step is plan and get ready for college admissions and selection process.
+If you have any questions or doubt regarding any aspect of your career, just login and ask your question.
+				</p>
+			</div>
+				<div class="about-bott-right">
+					 <h5>Who We Are</h5>
+					 <p>CareerWay is a career counseling website which helps a person by providing career guidance. This website gives details about multiple career options and details like educational qualifications, entrance exams and etc., related to particular career. 
+					 Some of the important elements/steps of career counseling are career awareness, understanding yourself, right career fit and college planning. 
+					 After the students decide the suitable career for themselves it is really very important to get the right path which will lead them to their dream career, hence CareerWay directs the students in the right direction by telling them about the educational path required for a particular career, that is what should be your stream in the school?, what should be your subjects in the graduation?, what is the minimum percentage for taking admission into a particular college?, what is the minimum qualification to pursue a particular career and many more queries like these are answered by CareerWay.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+</section>
+
+<!-- //about inner -->
+<jsp:include page="footer.jsp"></jsp:include>
+<!--js working-->
+      <script src="js/jquery.min.js"></script>
+      <!--//js working-->
+	  <!-- requried-jsfiles-for owl -->
+	<!-- smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+<!-- //smooth scrolling -->
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+
+<!--bootstrap working-->
+    <script src="js/bootstrap.min.js"></script>
+ <!-- //bootstrap working-->
+ 	<!-- Slider script -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				manualControls: '#slider3-pager',
+			});
+		});
+	</script>
+<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter-agileits-w3layouts').countUp();
+	</script>
+	<!-- //stats -->
+
+	<!-- smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {2
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+<!-- //smooth scrolling -->
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+    <!--js working-->
+    <script src='js/jquery-2.2.3.min1.js'></script>
+    <!--//js working--> 
+    <!--blast colors change-->
+    <script src="js/blast.min1.js"></script>
+    <!--//blast colors change-->
+    <!--responsiveslides banner-->
+    <script src="js/responsiveslides.min1.js"></script>
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+      	// Slideshow 4
+      	$("#slider4").responsiveSlides({
+      		auto: true,
+      		pager:false,
+      		nav:true ,
+      		speed: 900,
+      		namespace: "callbacks",
+      		before: function () {
+      			$('.events').append("<li>before event fired.</li>");
+      		},
+      		after: function () {
+      			$('.events').append("<li>after event fired.</li>");
+      		}
+      	});
+      
+      });
+    </script>
+    <!--// responsiveslides banner-->		  
+    <!--responsive tabs-->	 
+    <script src="js/easy-responsive-tabs1.js"></script>
+    <script>
+      $(document).ready(function () {
+      $('#horizontalTab').easyResponsiveTabs({
+      type: 'default', //Types: default, vertical, accordion           
+      width: 'auto', //auto or any width like 600px
+      fit: true,   // 100% fit in a container
+      closed: 'accordion', // Start closed if in accordion view
+      activate: function(event) { // Callback function if tab is switched
+      var $tab = $(this);
+      var $info = $('#tabInfo');
+      var $name = $('span', $info);
+      $name.text($tab.text());
+      $info.show();
+      }
+      });
+      });
+       
+    </script>
+    <!--// responsive tabs-->	
+    <!--About OnScroll-Number-Increase-JavaScript -->
+    <script src="js/jquery.waypoints.min1.js"></script>
+    <script src="js/jquery.countup1.js"></script>
+    <script>
+      $('.counter').countUp();
+    </script>
+    <!-- //OnScroll-Number-Increase-JavaScript -->	  
+    <!-- start-smoth-scrolling -->
+    <script src="js/move-top1.js"></script>
+    <script src="js/easing1.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+      	$(".scroll").click(function (event) {
+      		event.preventDefault();
+      		$('html,body').animate({
+      			scrollTop: $(this.hash).offset().top
+      		}, 900);
+      	});
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- here stars scrolling icon -->
+    <script>
+      $(document).ready(function () {
+      
+      	var defaults = {
+      		containerID: 'toTop', // fading element id
+      		containerHoverID: 'toTopHover', // fading element hover id
+      		scrollSpeed: 1200,
+      		easingType: 'linear'
+      	};
+      
+      
+      	$().UItoTop({
+      		easingType: 'easeOutQuart'
+      	});
+      
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <!--bootstrap working-->
+    <script src="js/bootstrap.min1.js"></script>
+    <!-- //bootstrap working-->
+	<!--js working-->
+      <script src="js/jquery.min.js"></script>
+      <!--//js working-->
+	  <!-- requried-jsfiles-for owl -->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#owl-demo2").owlCarousel({
+				items: 1,
+				lazyLoad: false,
+				autoPlay: true,
+				navigation: false,
+				navigationText: false,
+				pagination: true,
+			});
+		});
+	</script>
+	<!-- //requried-jsfiles-for owl -->
+
+
+	  	<!-- Slider script -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				manualControls: '#slider3-pager',
+			});
+		});
+	</script>
+<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter-agileits-w3layouts').countUp();
+	</script>
+	<!-- //stats -->
+
+	<!-- smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {2
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+<!-- //smooth scrolling -->
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+    <!--js working-->
+    <script src='js/jquery-2.2.3.min1.js'></script>
+    <!--//js working--> 
+    <!--blast colors change-->
+    <script src="js/blast.min1.js"></script>
+    <!--//blast colors change-->
+    <!--responsiveslides banner-->
+    <script src="js/responsiveslides.min1.js"></script>
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+      	// Slideshow 4
+      	$("#slider4").responsiveSlides({
+      		auto: true,
+      		pager:false,
+      		nav:true ,
+      		speed: 900,
+      		namespace: "callbacks",
+      		before: function () {
+      			$('.events').append("<li>before event fired.</li>");
+      		},
+      		after: function () {
+      			$('.events').append("<li>after event fired.</li>");
+      		}
+      	});
+      
+      });
+    </script>
+    <!--// responsiveslides banner-->		  
+    <!--responsive tabs-->	 
+    <script src="js/easy-responsive-tabs1.js"></script>
+    <script>
+      $(document).ready(function () {
+      $('#horizontalTab').easyResponsiveTabs({
+      type: 'default', //Types: default, vertical, accordion           
+      width: 'auto', //auto or any width like 600px
+      fit: true,   // 100% fit in a container
+      closed: 'accordion', // Start closed if in accordion view
+      activate: function(event) { // Callback function if tab is switched
+      var $tab = $(this);
+      var $info = $('#tabInfo');
+      var $name = $('span', $info);
+      $name.text($tab.text());
+      $info.show();
+      }
+      });
+      });
+       
+    </script>
+    <!--// responsive tabs-->	
+    <!--About OnScroll-Number-Increase-JavaScript -->
+    <script src="js/jquery.waypoints.min1.js"></script>
+    <script src="js/jquery.countup1.js"></script>
+    <script>
+      $('.counter').countUp();
+    </script>
+    <!-- //OnScroll-Number-Increase-JavaScript -->	  
+    <!-- start-smoth-scrolling -->
+    <script src="js/move-top1.js"></script>
+    <script src="js/easing1.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+      	$(".scroll").click(function (event) {
+      		event.preventDefault();
+      		$('html,body').animate({
+      			scrollTop: $(this.hash).offset().top
+      		}, 900);
+      	});
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- here stars scrolling icon -->
+    <script>
+      $(document).ready(function () {
+      
+      	var defaults = {
+      		containerID: 'toTop', // fading element id
+      		containerHoverID: 'toTopHover', // fading element hover id
+      		scrollSpeed: 1200,
+      		easingType: 'linear'
+      	};
+      
+      
+      	$().UItoTop({
+      		easingType: 'easeOutQuart'
+      	});
+      
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <!--bootstrap working-->
+    <script src="js/bootstrap.min1.js"></script>
+    <!-- //bootstrap working-->
+
+</body>
+</html>

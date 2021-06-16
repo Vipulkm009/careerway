@@ -1,0 +1,19 @@
+.service {
+    background: url(../images/b2.jpg)no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.white-shadow {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2em 1em;
+}
